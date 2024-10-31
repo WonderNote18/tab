@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TAB - Take a Break!</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div id="container">
+      <h1>TAB - Take a Break!</h1>
+      <div style="width:fit-content;margin-left: auto;">
+        <label for="audioEnabled">Enable Sound?</label>
+        <label class="switch">
+          <input type="checkbox" id="audioEnabled" />
+          <span class="slider"></span>
+        </label>
+      </div>
+      <div id="content">
+        <div class="breakOption">
+          <p class="breakTitle">Eye Break</p>
+          <p>Break @: <span id="visionNotification" class="breakNotification"></span></p>
+          <div class="breakSetting">
+            <div>
+              <label class="optionLabel" for="visionEnabled">Enabled</label>
+              <label class="switch">
+                <input type="checkbox" id="visionEnabled" />
+                <span class="slider"></span>
+              </label>
+            </div>
+            <div>
+              <label class="optionLabel" for="visionDuration">Duration</label>
+              <input type="number" id="visionDuration" min="15" max="30" step="1"></input>
+            </div>
+          </div>
+        </div>
+        <div class="breakOption">
+          <p class="breakTitle">Posture</p>
+          <p>Break @: <span id="postureNotification" class="breakNotification"></span></p>
+          <div class="breakSetting">
+            <div>
+              <label class="optionLabel" for="postureEnabled">Enabled</label>
+              <label class="switch">
+                <input type="checkbox" id="postureEnabled" />
+                <span class="slider"></span>
+              </label>
+            </div>
+            <div>
+              <label class="optionLabel" for="postureDuration">Duration</label>
+              <input type="number" id="postureDuration" min="20" max="45" step="1"></input>
+            </div>
+          </div>
+        </div>
+        <div class="breakOption">
+          <p class="breakTitle">Stretch</p>
+          <p>Break @: <span id="stretchNotification" class="breakNotification"></span></p>
+          <div class="breakSetting">
+            <div>
+              <label class="optionLabel" for="stretchEnabled">Enabled</label>
+              <label class="switch">
+                <input type="checkbox" id="stretchEnabled" />
+                <span class="slider"></span>
+              </label>
+            </div>
+            <div>
+              <label class="optionLabel" for="stretchDuration">Duration</label>
+              <input type="number" id="stretchDuration" min="30" max="60" step="1"></input>
+            </div>
+          </div>
+        </div>
+        <div class="breakOption">
+          <p class="breakTitle">Hydration</p>
+          <p>Break @: <span id="hydrationNotification" class="breakNotification"></span></p>
+          <div class="breakSetting">
+            <div>
+              <label class="optionLabel" for="hydrationEnabled">Enabled</label>
+              <label class="switch">
+                <input type="checkbox" id="hydrationEnabled" />
+                <span class="slider"></span>
+              </label>
+            </div>
+            <div>
+              <label class="optionLabel" for="hydrationDuration">Duration</label>
+              <input type="number" id="hydrationDuration" min="45" max="90" step="1"></input>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>

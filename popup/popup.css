@@ -1,0 +1,115 @@
+html,
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 4px auto;
+  text-align: center;
+  border-bottom: 4px groove #808080aa;
+  padding-bottom: 0;
+}
+
+p {
+  margin: 4px 0 6px;
+  font-variant: small-caps;
+}
+
+#container {
+  background-image: url('../icons/background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 6px solid #808080aa;
+  padding: 0 10px;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.breakSetting {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 4px;
+  text-align: center;
+}
+
+.breakTitle {
+  font-weight: bold;
+  font-size: larger;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.breakNotification {
+  text-decoration: underline;
+  margin-bottom: 4px;
+}
+
+.breakOption {
+  border-bottom: 4px ridge #80808088;
+  padding-bottom: 4px;
+  text-align: center;
+}
+
+#content .breakOption:last-child {
+  border-bottom: 0;
+  padding-bottom: 4px;
+}
+
+/* Toggle switch container */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 26px;
+}
+
+/* Hide the checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* Slider (background) */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #6B5E8A;
+  transition: 0.4s;
+  border-radius: 26px;
+  border: 1px solid #80808088;
+}
+
+/* Slider knob */
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 2px;
+  bottom: 2px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+/* Toggle "on" state */
+input:checked + .slider {
+  background-color: #8BC48A;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
