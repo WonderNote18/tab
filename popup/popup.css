@@ -10,7 +10,7 @@ h1 {
   margin: 4px auto;
   text-align: center;
   border-bottom: 4px groove #808080aa;
-  padding-bottom: 0;
+  margin-bottom: 14px;
 }
 
 p {
