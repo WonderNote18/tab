@@ -1,7 +1,9 @@
-# TAB - Take a Break
-> #### Reminder to take breaks for ***eye care, posture correction, hydration, and stretching***.
+# TAB - Take a Break 
+> #### Reminder to take breaks for ***eye care, posture correction, hydration, and stretching***. 
 ##### *Browser extension for Firefox*
+
 ---
+![Extension Icon](icons/logo-128.png)
 
 A Mozilla Firefox-based web extension built using the Manifest v2 version that aims to remind and notify the user to take breaks (during their time browsing the web or completing other activities) to:
 * Rehydrate and drink some water
