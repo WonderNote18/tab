@@ -14,24 +14,24 @@
   "browser_action": {
     "default_popup": "popup/popup.html",
     "default_icon": {
-      "16": "icons/mindul-16.png",
-      "48": "icons/mindul-48.png",
-      "64": "icons/mindul-64.png",
-      "128": "icons/mindul-128.png"
+      "16": "icons/logo-16.png",
+      "48": "icons/logo-48.png",
+      "64": "icons/logo-64.png",
+      "128": "icons/logo-128.png"
     }
   },
   "content_security_policy": "script-src 'self'; object-src 'self';",
   "web_accessible_resources": [
     "popup/popup.html",
-    "icons/mindul-16.png",
-    "icons/mindul-48.png",
-    "icons/mindul-64.png",
-    "icons/mindul-128.png"
+    "icons/logo-16.png",
+    "icons/logo-48.png",
+    "icons/logo-64.png",
+    "icons/logo-128.png"
   ],
   "icons": {
-    "16": "icons/mindul-16.png",
-    "48": "icons/mindul-48.png",
-    "64": "icons/mindul-64.png",
-    "128": "icons/mindul-128.png"
+    "16": "icons/logo-16.png",
+    "48": "icons/logo-48.png",
+    "64": "icons/logo-64.png",
+    "128": "icons/logo-128.png"
   }
 }

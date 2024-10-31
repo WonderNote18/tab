@@ -132,7 +132,7 @@ async function processNotificationQueue() {
 
   browser.notifications.create(notificationId, {
     type: 'basic',
-    iconUrl: browser.runtime.getURL('icons/mindul-128.png'),
+    iconUrl: browser.runtime.getURL('icons/logo-128.png'),
     title: `TAB: ${properTimerName} break!`,
     message: timerMessage
   });
